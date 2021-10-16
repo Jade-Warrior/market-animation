@@ -1,0 +1,31 @@
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-has-data {
+  background: #ff9800;
+  color: #333333;
+  font-size: 80px;
+}
+
+.mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400px;
+  height: 300px;
+}

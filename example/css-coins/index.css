@@ -1,0 +1,61 @@
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 375px;
+  max-width: 750px;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+}
+
+
+.coin-container {
+  position: relative;
+}
+
+.coin {
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 80px;
+  /* background: #ff9800; */
+  background: url('./../images/coin.png') no-repeat;
+  background-size: contain;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.coin-01 {
+  left: 50px;
+  animation: falldown ease-in 1.5s infinite;
+}
+.coin-02 {
+  left: 100px;
+  animation: falldown ease-in 3s infinite;
+}
+.coin-03 {
+  left: 160px;
+  animation: falldown ease-in 1s infinite;
+}
+.coin-04 {
+  right: 120px;
+  animation: falldown ease-in 2.5s infinite;
+}
+.coin-05 {
+  right: 50px;
+  animation: falldown ease-in 3.2s infinite;
+}
+
+@keyframes falldown {
+  0% {
+    top: -20vh;
+  }
+  100% {
+    top: 100vh;
+  }
+}

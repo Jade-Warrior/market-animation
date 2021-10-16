@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 750px;
+  height: 100vh;
+  margin: 0 auto;
+  background: #bce0f1;
+}
+
+.content {
+  position: relative;
+  width: 375px;
+  margin: 0 auto;
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#canvas {
+  width: 375px;
+  height: 400px;
+}
