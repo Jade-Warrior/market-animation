@@ -2,7 +2,8 @@ import Coating from './lib/coating.js';
 
 const content = document.querySelector('#content');
 const canvas = document.querySelector('#canvas');
-canvas.width = 400;
+canvas.width = 750;
+canvas.style.width = '100%';
 canvas.height = 300;
 
 const coating = new Coating(canvas, {
